@@ -1,0 +1,119 @@
+@import './base.css';
+
+#app {
+  background: radial-gradient(circle at center, #3a0d49, #000000 80%);
+  min-height: 100vh;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #a1cff9; 
+  text-shadow: 0 0 10px #9400d3, 
+               0 0 20px #9400d3, 
+               0 0 40px #8a2be2, 
+               0 0 80px #7a00ff;
+}
+
+
+h3 {
+  
+ 
+  color: #c8def3;
+  text-shadow: 0 0 5px #8819ff, 
+               0 0 15px #6a1cad;
+  padding-left: 5vw;
+  padding-top: 5vh;
+}
+
+.x-cell {
+  color: #00aaff;
+  text-shadow: 0 0 10px #00aaff, 0 0 20px #0088cc, 0 0 30px #0066aa;
+}
+
+.o-cell {
+  color: #ff4444;
+  text-shadow: 0 0 10px #ff4444, 0 0 20px #cc0000, 0 0 30px #aa0000;
+}
+/* griglia */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(80px, 1fr));
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #9400d3; 
+  
+}
+.cell {
+  aspect-ratio: 1 / 1; 
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #9400d3;
+  cursor: pointer;
+  user-select: none;
+  width: 100%;
+  transition: 0.3s;
+}
+.cell:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cell.active {
+  background-color: rgba(122, 0, 255, 0.3);
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  width:295%;
+  margin-left: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #00aaff;
+  background: none;
+  color: white;
+  text-shadow: 0 0 5px #00aaff, 0 0 10px #0088cc;
+  box-shadow: 0 0 10px #00aaff;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background: #00aaff;
+  color: black;
+  text-shadow: none;
+  box-shadow: 0 0 20px #00aaff, 0 0 40px #0088cc;
+  border-color: #0088cc;
+}
+
+.btn-primary:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px #00aaff, 0 0 10px #0088cc;
+}
+
+p.x{
+  color: #00aaff;
+  text-shadow: 0 0 10px #00aaff, 0 0 20px #0088cc, 0 0 30px #0066aa;
+}
+p.o{
+  color: #ff4444; 
+  text-shadow: 0 0 10px #ff4444, 0 0 20px #cc0000, 0 0 30px #aa0000;
+}
+p.draw{
+margin-bottom:30px ;
+color: #00ff44; 
+text-shadow: 0 0 10px #00ff44, 0 0 20px #00cc33, 0 0 30px #009922;
+
+}
+.tabellone{
+  display: flex;
+  flex-direction: column;
+}
+.btn-danger{
+transition: all 0.3s ease-in-out;
+box-shadow: 0 0 10px #ff4444, 0 0 20px #cc0000, 0 0 30px #aa0000;
+border: 2px solid rgb(219, 66, 66);
+}
+.btn-danger:active{
+transform: scale(0.95);
+}
