@@ -1,6 +1,6 @@
-# piniaEx
+# TicTacToe
 
-This template should help get you started developing with Vue 3 in Vite.
+Ho ricreato il celebre gioco del tris cn vue3 e Pinia, dandogli un look moderno e accattivante.
 
 ## Recommended IDE Setup
 
