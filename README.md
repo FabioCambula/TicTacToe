@@ -1,33 +1,52 @@
-# TicTacToe
+# Tic Tac Toe - Vue.js
 
-Ho ricreato il celebre gioco del tris cn vue3 e Pinia, dandogli un look moderno e accattivante.
+## Descrizione
+Questa applicazione è una riproduzione digitale del classico gioco del Tris (Tic Tac Toe). Il progetto è stato realizzato come esercitazione su Vue.js, TypeScript e Pinia.
 
-## Recommended IDE Setup
+## Funzionalità
+- 🎮 Modalità a due giocatori
+- 🏆 Tracciamento del punteggio
+- 🔄 Reset della partita
+- 📱 Responsive design per una corretta visualizzazione su tutti i dispositivi
+- 🖼️ OpenGraph per una corretta anteprima nei social
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tecnologie Utilizzate
+- **HTML**: Struttura della pagina
+- **TypeScript**: Logica dell’applicazione
+- **Vue.js**: Framework principale
+- **Pinia**: Gestione dello stato globale
+- **CSS**: Stile e design
+- **Bootstrap**: Stile e layout responsive
+- **Git**: Versionamento del codice
+- **GitHub Pages**: Deploy dell'applicazione online
 
-## Type Support for `.vue` Imports in TS
+## Installazione e utilizzo
+1. **Clonare il repository**
+   ```bash
+   git clone https://github.com/fabiocambula/TicTacToe.git
+   ```
+2. **Accedere alla cartella del progetto**
+   ```bash
+   cd TicTacToe
+   ```
+3. **Installare le dipendenze**
+   ```bash
+   npm install
+   ```
+4. **Avviare l’app in locale**
+   ```bash
+   npm run dev
+   ```
+5. **Build per la produzione**
+   ```bash
+   npm run build
+   ```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Link al Progetto
+🔗 [Gioca a Tic Tac Toe](https://fabiocambula.github.io/TicTacToe/)
 
-## Customize configuration
+## Screenshot
+![Anteprima del gioco](docs/assets/gamePic.png)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Autore
+👨‍💻 **Fabio Cambula**
