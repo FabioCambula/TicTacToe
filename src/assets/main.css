@@ -110,6 +110,7 @@ text-shadow: 0 0 10px #00ff44, 0 0 20px #00cc33, 0 0 30px #009922;
   flex-direction: column;
 }
 .btn-danger{
+margin-bottom: 3rem;
 transition: all 0.3s ease-in-out;
 box-shadow: 0 0 10px #ff4444, 0 0 20px #cc0000, 0 0 30px #aa0000;
 border: 2px solid rgb(219, 66, 66);
