@@ -1,7 +1,7 @@
 # Tic Tac Toe - Vue.js
 
 ## Descrizione
-Questa applicazione è una riproduzione digitale del classico gioco del Tris (Tic Tac Toe). Il progetto è stato realizzato come esercitazione su Vue.js, TypeScript e Pinia.
+Questa applicazione è una riproduzione digitale del classico gioco del Tris (Tic Tac Toe). Il progetto è stato realizzato come esercitazione su Vue.js.
 
 ## Funzionalità
 - 🎮 Modalità a due giocatori
