@@ -45,7 +45,7 @@ Questa applicazione è una riproduzione digitale del classico gioco del Tris (Ti
 🔗 [Gioca a Tic Tac Toe](https://fabiocambula.github.io/TicTacToe/)
 
 ## Screenshot
-![Anteprima del gioco](docs/assets/gamePic.png)
+![Anteprima del gioco](src/assets/gamePic.png)
 
 ## Autore
 👨‍💻 **Fabio Cambula**
